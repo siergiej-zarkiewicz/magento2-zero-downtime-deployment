@@ -5,13 +5,13 @@ Magento 2 Zero Downtime Deployment
 1 exception(s):
 Exception #0 (Magento\Framework\Exception\LocalizedException): Please update your modules: Run "composer install" from the Magento root directory.
 The following modules are outdated:
-AliorBank_Raty schema: code version - 0.1.0, database version - 0.1.1
-AliorBank_Raty data: code version - 0.1.0, database version - 0.1.1
+Magento_Module schema: code version - 0.1.0, database version - 0.1.1
+Magento_Module data: code version - 0.1.0, database version - 0.1.1
 
 Exception #0 (Magento\Framework\Exception\LocalizedException): Please update your modules: Run "composer install" from the Magento root directory.
 The following modules are outdated:
-AliorBank_Raty schema: code version - 0.1.0, database version - 0.1.1
-AliorBank_Raty data: code version - 0.1.0, database version - 0.1.1
+Magento_Module schema: code version - 0.1.0, database version - 0.1.1
+Magento_Module data: code version - 0.1.0, database version - 0.1.1
 <pre>#1 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/amasty/aminvisiblecaptcha/Plugin/Predispatch.php:113]
 #2 Amasty\InvisibleCaptcha\Plugin\Predispatch->aroundDispatch() called at [vendor/magento/framework/Interception/Interceptor.php:135]
 #3 Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}() called at [vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php:73]
