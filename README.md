@@ -1,6 +1,8 @@
-# magento2-zero-downtime-deployment
+# Magento2 Zero Downtime Deployment Module
 Magento 2 Zero Downtime Deployment
 
+## Module resolved two exception:
+* Please update your modules.
 ```php
 1 exception(s):
 Exception #0 (Magento\Framework\Exception\LocalizedException): Please update your modules: Run "composer install" from the Magento root directory.
@@ -23,9 +25,8 @@ Magento_Module data: code version - 0.1.0, database version - 0.1.1
 #9 Magento\Framework\App\Http\Interceptor->launch() called at [vendor/magento/framework/App/Bootstrap.php:261]
 #10 Magento\Framework\App\Bootstrap->run() called at [pub/index.php:40]
 </pre>
-
 ```
-
+* The configuration file has changed.
 ```php
 1 exception(s):
 Exception #0 (Magento\Framework\Exception\LocalizedException): The configuration file has changed. Run the "app:config:import" or the "setup:upgrade" command to synchronize the configuration.
