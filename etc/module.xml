@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Zarkiewicz\ZeroDowntimeDeployment
+ * @author    Siergiej Żarkiewicz <siergiej.zarkiewicz@gmail.com>
+ * @copyright Siergiej Żarkiewicz
+ * @license   See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Zarkiewicz_ZeroDowntimeDeployment">
+        <sequence>
+            <module name="Magento_Deploy"/>
+            <module name="Magento_Store"/>
+        </sequence>
+    </module>
+</config>

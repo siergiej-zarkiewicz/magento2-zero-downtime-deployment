@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Zarkiewicz\ZeroDowntimeDeployment
+ * @author    Siergiej Żarkiewicz <siergiej.zarkiewicz@gmail.com>
+ * @copyright Siergiej Żarkiewicz
+ * @license   See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\App\FrontControllerInterface">
+        <!-- Disable ConfigChangeDetector Plugin -->
+        <plugin name="configHash" type="Magento\Deploy\Model\Plugin\ConfigChangeDetector" disabled="true"/>
+    </type>
+    <type name="Magento\Framework\App\FrontController">
+        <!-- Disable DbStatusValidator Plugin -->
+        <plugin name="install" type="Magento\Framework\Module\Plugin\DbStatusValidator" disabled="true"/>
+    </type>
+</config>
